@@ -75,6 +75,7 @@ if [ ! -d ~/.git ]; then
 				curl -s get.gvmtool.net | bash
 fi
 
+installcask intellij-idea-ultimate
 
 installcask dropbox
 installcask google-chrome
@@ -105,5 +106,5 @@ if [ -d ~/Projects/dotfiles/ ]; then
 fi
 
 git clone https://ze_dach@bitbucket.org/ze_dach/dotfiles.git ~/Projects/dotfiles
-ln -sF Projects/dotfiles .dotfiles && cd .dotfiles && source bootstrap.sh
+cd Projects/dotfiles && source bootstrap.sh
 
