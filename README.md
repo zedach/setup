@@ -7,7 +7,7 @@ Download setup.sh
 ./setup.sh
 ```
 
-See also https://bitbucket.org/ze_dach/dotfiles for more details.
+See also [dotfiles] (https://bitbucket.org/ze_dach/dotfiles) for more details.
 
 
 
