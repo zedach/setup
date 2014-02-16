@@ -71,9 +71,11 @@ brew install sbt
 brew install maven 
 
 #install gvm
-if [ ! -d ~/.git ]; then
-				curl -s get.gvmtool.net | bash
-fi
+curl -s get.gvmtool.net | bash
+[[ -s ~/.gvm/bin/gvm-init.sh ]] && source ~/.gvm/bin/gvm-init.sh
+
+gvm install grails 2.3.5
+gvm install groovy 
 
 installcask intellij-idea-ultimate
 
@@ -92,6 +94,10 @@ installcask transmission
 installcask ukelele
 installcask virtualbox
 installcask vlc
+
+brew install elasticsearch
+mv /usr/local/bin/plugin /usr/local/bin/elasticsearch-plugin
+elasticsearch-plugin --install mobz/elasticsearch-head
 
 # Remove outdated versions from the cellar
 brew cleanup
