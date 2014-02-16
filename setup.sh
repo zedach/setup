@@ -45,6 +45,8 @@ brew install tree
 brew install zopfli
 brew install p7zip
 
+brew install osxfuse 
+brew install ntfs-3g
 # Install dev tools
 
 installcask java
