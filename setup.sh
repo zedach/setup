@@ -101,6 +101,8 @@ brew install elasticsearch
 mv /usr/local/bin/plugin /usr/local/bin/elasticsearch-plugin
 elasticsearch-plugin --install mobz/elasticsearch-head
 
+brew install postgresql
+
 # Remove outdated versions from the cellar
 brew cleanup
 
