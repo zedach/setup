@@ -80,7 +80,7 @@ gvm install grails 2.3.5
 gvm install groovy 
 
 installcask intellij-idea-ultimate
-
+installcask pgadmin3
 installcask dropbox
 installcask google-chrome
 # installcask google-chrome-canary
