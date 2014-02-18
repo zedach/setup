@@ -96,6 +96,7 @@ installcask transmission
 installcask ukelele
 installcask virtualbox
 installcask vlc
+installcask google-hangouts
 
 brew install elasticsearch
 mv /usr/local/bin/plugin /usr/local/bin/elasticsearch-plugin
