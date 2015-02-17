@@ -24,6 +24,13 @@ brew update
 # Upgrade any already-installed formulae
 brew upgrade
 
+# Do the same for cask
+brew upgrade brew-cask 
+
+# Prevent from issue https://github.com/caskroom/homebrew-cask/issues/7946
+# Remove outdated versions from the cellar
+brew cleanup && brew cask cleanup
+
 # Install GNU core utilities (those that come with OS X are outdated)
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew install coreutils
@@ -103,6 +110,11 @@ mv /usr/local/bin/plugin /usr/local/bin/elasticsearch-plugin
 elasticsearch-plugin --install mobz/elasticsearch-head
 
 brew install postgresql
+
+installcask virtualbox
+installcask vagrant
+installcask vagrant-manager
+brew install ansible 
 
 # Remove outdated versions from the cellar
 brew cleanup
