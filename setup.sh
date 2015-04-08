@@ -59,7 +59,8 @@ brew install ntfs-3g
 installcask java
 
 brew install subversion
-brew install scala --with-docs
+brew install scala --with-docs --with-src
+brew install apache-spark
 
 # hacks for scala
 # http://scalacookbook.blogspot.fr/2012/09/scala-for-intellij.html
