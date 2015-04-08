@@ -116,6 +116,7 @@ installcask virtualbox
 installcask vagrant
 installcask vagrant-manager
 brew install ansible 
+brew install springboot
 
 # Remove outdated versions from the cellar
 brew cleanup
