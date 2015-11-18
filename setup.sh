@@ -118,6 +118,12 @@ installcask vagrant-manager
 brew install ansible 
 brew install springboot
 
+brew-cask install spotify
+brew-cask install nvalt
+brew install grsync
+
+brew install nginx
+installcask dockertoolbox
 # Remove outdated versions from the cellar
 brew cleanup
 
