@@ -126,6 +126,8 @@ brew install grsync
 brew install nginx
 installcask dockertoolbox
 
+brew install wildfly-as
+
 # Remove outdated versions from the cellar
 brew cleanup
 
