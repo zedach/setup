@@ -10,9 +10,10 @@
 
 # echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 
+# No need to install cask http://bit.ly/1SviowC
 # Install cask 
-brew tap phinze/cask
-brew install brew-cask
+# brew tap phinze/cask
+# brew install brew-cask
 
 function installcask() {
 				brew cask install "${@}" 2> /dev/null
@@ -25,7 +26,7 @@ brew update
 brew upgrade
 
 # Do the same for cask
-brew upgrade brew-cask 
+# brew upgrade brew-cask 
 
 # Prevent from issue https://github.com/caskroom/homebrew-cask/issues/7946
 # Remove outdated versions from the cellar
@@ -124,6 +125,7 @@ brew install grsync
 
 brew install nginx
 installcask dockertoolbox
+
 # Remove outdated versions from the cellar
 brew cleanup
 
