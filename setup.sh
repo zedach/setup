@@ -103,7 +103,6 @@ installcask the-unarchiver
 # installcask tor-browser
 installcask transmission
 installcask ukelele
-installcask virtualbox
 installcask vlc
 installcask google-hangouts
 
@@ -113,9 +112,10 @@ elasticsearch-plugin --install mobz/elasticsearch-head
 
 brew install postgresql
 
-installcask virtualbox
+installcask virtualbox virtualbox-extension-pack
 installcask vagrant
-installcask vagrant-manager
+installcask vagrant-manager vagrant-bar
+brew install vagrant-completion 
 brew install ansible 
 brew install springboot
 
