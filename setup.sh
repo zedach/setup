@@ -6,7 +6,7 @@
 
 # Install Command Line Tools for Xcode
 # xcode-select --install
-# ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
+# ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 
