@@ -63,6 +63,8 @@ brew install subversion
 brew install scala --with-docs --with-src
 brew install apache-spark
 
+npm install -g tldr
+
 # hacks for scala
 # http://scalacookbook.blogspot.fr/2012/09/scala-for-intellij.html
 scalaversion="$(brew which scala | sed 's/[^0-9.]*\([0-9.]*\).*/\1/')"
